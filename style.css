@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css?family=Patrick+Hand|Permanent+Marker");
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P");
+
+body 
+{
+  background-color: #191970;
+   font-family: 'Press Start 2P', cursive;
+}
+
+h1 
+{
+  text-align: center;
+  font-size: 33px;
+  color: black;
+  background-color: #7B68EE;
+  padding: 26px;
+  border: 4px dashed;
+}
+
+h2 
+{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #7B68EE;
+  color: black;
+  padding: 0.5em;
+  border: 2px dashed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  width: 80%;
+  margin: 40px auto;
+}
+
+
+button
+{
+  position: static;
+  top: 0;
+  left: 0;
+  margin: 0px 13px;
+  width: 90%;
+}
